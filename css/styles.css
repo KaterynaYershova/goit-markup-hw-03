@@ -231,7 +231,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-container {
@@ -241,6 +240,7 @@ body {
 .team-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-title {
@@ -292,6 +292,7 @@ body {
 
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .portfolio-list-title {
